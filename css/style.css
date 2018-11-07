@@ -4,6 +4,11 @@
 
 /*////////// Global Styles //////////*/
 
+@font-face {
+  font-family: 'Baskerville';
+  src: url('/fonts/Baskerville.ttc') format('truetype');
+}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -18,3 +23,43 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.title {
+  font-family: 'Baskerville', serif;
+  font-size: 4.5rem;
+  color: #98ADA6;
+  font-weight: 900;
+}
+
+#necklace {
+  border: 5px solid #98ADA6;
+}
+
+h2 {
+  color: #6F807A;
+  font-size: 2rem;
+}
+
+.about p {
+  color: #585858;
+}
+
+.logos {
+   width: 100%;
+}
+.logos > div {
+  display: inline;
+}
+
+.logos img {
+  border: 5px solid #CCCCCC;  
+}
+.logos img:hover {
+  border-color: #6F807A;
+}
+
+footer p {
+  text-align: right;
+  padding-right: .5rem;
+  font-size: .8rem;
+}
